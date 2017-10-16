@@ -1,0 +1,200 @@
+/* Vamos a resetear unos cuantos estilos */
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+/* Empezamos dandole color a los links que podamos poner en el documento y al hover*/
+
+a {
+	color: #95a5a6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #888888;
+
+	}
+
+/* Inicializamos unos valores básicos para tomar como base */
+
+body {
+	background: #ffffff;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	color: #888888;
+	/*background: url('../img/01.jpg');
+	background-size: cover;*/
+}
+
+/* Cabecera donde va el logo y el menu */
+
+header {
+	height: 100px;
+	width: 100%;
+	background: #ffffff;
+	z-index: 10;
+}
+.ventana_flotante {
+   
+    margin-left: 1000px;
+    border-radius: 6px 6px 6px 6px;
+    bottom: 50px;
+    position: inherit;
+    text-align: center;
+    width: 380px;
+    height: 90px;
+    z-index: 150;
+
+}
+.ventana_flotante img{
+width:390px;
+height: 100px;
+margin-left:-5px;
+}
+#header-content {
+	width: 1000px; margin: 0 auto; 
+	padding: 35px 0 0 0;
+	overflow: hidden;
+	}
+
+#header-content h1 {
+	float: left;
+	font-size: 35px;
+	height: 60px;
+	font-family: "Kite One";
+	letter-spacing: -1px;
+	}
+
+h1 > a {
+
+	color: #fff;
+}
+	
+#header-content nav {
+	float: right;
+	}
+
+#header-content nav li {
+	text-transform: uppercase;
+	float: left;
+	font-size: 16px;
+	font-weight: 100;
+	margin: 0 0 0 50px;
+	list-style: none;
+	}
+
+/* El bloque que nos sirve como presentación */
+
+#banner {
+	height: 500px;
+	background: url('../img/00.jpg');
+	background-color: #34495e;
+	background-size: cover;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#banner h2 {
+	margin: 0 auto;
+	padding-top: 170px;
+	color: #fff;
+	width: 800px;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+#banner h3 {
+	margin: 0 auto;
+	padding-top: 10px;
+	color: #fff;
+	width: 800px;
+	font-size: 15px; 
+	font-weight: 300;
+	line-height: 60px; 
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+/* El contenedor padre de nuestros elementos */
+
+section {
+	background: #f1f1f1;
+	width: 100%; 
+}
+
+/* Los títulares que nos sirven como entradilla a cada sección */
+
+section > h3
+{
+
+ 	width: 100%;
+ 	text-align: center;
+ 	font-family: "Lato";
+ 	font-size: 16px;
+ 	text-transform: uppercase;
+ 	color: #333333;
+ 	padding: 25px 0 25px 0; 
+ 	background-color: #fff;
+ 	margin: 0 auto;
+}
+
+/* Estilos básicos backStretch*/
+#logos{
+	margin-top: px;
+}
+#fondoFull1 {
+   
+	color: rgb(0, 166, 8);
+	opacity: 0.8;
+	width: 800px;
+	/*width: 40%;*/
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 20px;
+	font-style: oblique;
+
+}
+#fondoFull {
+
+	background-color: #333333;
+	opacity: 0.8;
+	width: 400px;
+	/*width: 40%;*/
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 50px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px rgb(6, 6, 6);
+  color:rgb(255, 255, 255);
+}
+p{
+	color: rgb(243, 245, 249);
+}
+#user{
+	margin-left: 60px;
+	height: 60px;
+	width: 60px;
+}
+#mesatitulo{
+background: rgb(0, 99, 142);
+border-radius: 10px;
+box-shadow: 5px 5px 10px rgb(6, 6, 6);
+}
+#admin
+{
+margin-left: 50px;
+margin-top: -50px;
+height: 60px;
+width: 60px;
+}
+#fondoFull p{
+	line-height: 30px;
+	color: #fff;
+}
+
+
+
